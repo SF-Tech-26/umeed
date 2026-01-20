@@ -57,7 +57,7 @@ export default function Footer() {
                     <span style={{ fontWeight: 800, color: "var(--accent-color)", letterSpacing: "0.1em", fontSize: "0.8rem" }}>ANURADHA SINGH</span>
                     <p style={{ margin: "0.5rem 0 0 0", fontSize: "1.4rem", fontWeight: 900 }}>8958578751</p>
                   </div>
-                  <div className="grid-full-width" style={{ marginTop: "1rem", wordBreak: 'break-all' }}>
+                  {/* <div className="grid-full-width" style={{ marginTop: "1rem", wordBreak: 'break-all' }}>
                     <p style={{ margin: "0 0 0.8rem 0", fontSize: "0.9rem", opacity: 0.6, fontWeight: 700 }}>VISIT OUR SOCIAL PLATFORM</p>
                     <a href="https://social.springfest.in" target="_blank" rel="noreferrer" style={{
                       fontSize: "clamp(0.9rem, 4.5vw, 2.5rem)",
@@ -70,7 +70,7 @@ export default function Footer() {
                     }}>
                       social.springfest.in
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

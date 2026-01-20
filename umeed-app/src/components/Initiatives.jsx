@@ -1,9 +1,9 @@
 import React from 'react';
 import { MessageSquare, Smile, Footprints, Mail } from 'lucide-react';
-import QnA from '../assets/QnA.png';
-import sf2 from '../assets/sf2.jpeg';
-import sf3 from '../assets/sf3.jpg';
-import recreational from '../assets/recreational.png';
+import QnA from '../assets/QnA.webp';
+import sf2 from '../assets/sf2.webp';
+import sf3 from '../assets/sf3.webp';
+import recreational from '../assets/recreational.webp';
 
 export default function Initiatives() {
   return (
@@ -54,7 +54,7 @@ export default function Initiatives() {
           position: 'absolute',
           top: 0, left: 0, right: 0, bottom: 0,
           opacity: 0.4,
-          backgroundImage: 'url("https://www.transparenttextures.com/patterns/pinstriped-suit.png")', // Using a more subtle, wavy texture
+          backgroundImage: 'url("https://www.transparenttextures.com/patterns/pinstriped-suit.webp")', // Using a more subtle, wavy texture
           pointerEvents: 'none'
         }}></div>
         <div className="container">
@@ -170,7 +170,7 @@ export default function Initiatives() {
 
       {/* Recreational Wellness */}
       <section className="section-padding" style={{
-        background: 'linear-gradient(rgba(186, 230, 253, 0.4), rgba(186, 230, 253, 0.2)), url("https://www.transparenttextures.com/patterns/pinstriped-suit.png")',
+        background: 'linear-gradient(rgba(186, 230, 253, 0.4), rgba(186, 230, 253, 0.2)), url("https://www.transparenttextures.com/patterns/pinstriped-suit.webp")',
         position: 'relative',
         overflow: 'hidden'
       }}>
@@ -315,7 +315,7 @@ export default function Initiatives() {
           position: 'absolute',
           top: 0, left: 0, right: 0, bottom: 0,
           opacity: 0.4,
-          backgroundImage: 'url("https://www.transparenttextures.com/patterns/pinstriped-suit.png")',
+          backgroundImage: 'url("https://www.transparenttextures.com/patterns/pinstriped-suit.webp")',
           pointerEvents: 'none'
         }}></div>
 

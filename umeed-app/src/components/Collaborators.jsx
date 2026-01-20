@@ -1,7 +1,7 @@
 import React from 'react';
-import unesco from '../assets/unesco.png';
-import cry from '../assets/cry.png';
-import blood from '../assets/blood.png';
+import unesco from '../assets/unesco.webp';
+import cry from '../assets/cry.webp';
+import blood from '../assets/blood.webp';
 import youwecan from '../assets/youwecan.webp';
 
 export default function Collaborators() {

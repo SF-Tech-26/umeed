@@ -16,7 +16,7 @@ import masum1 from '../assets/masum1.webp';
 import masum2 from '../assets/masum2.webp';
 import masum3 from '../assets/masum3.webp';
 
-import lastImg from '../assets/last.png';
+import lastImg from '../assets/last.webp';
 
 export default function PreviousWorks() {
   const sections = [
@@ -62,7 +62,7 @@ export default function PreviousWorks() {
 
       {sections.map((section, idx) => (
         <section key={idx} className="section-padding" style={{
-          background: 'linear-gradient(rgba(186, 230, 253, 0.4), rgba(186, 230, 253, 0.2)), url("https://www.transparenttextures.com/patterns/clean-gray-paper.png")',
+          background: 'linear-gradient(rgba(186, 230, 253, 0.4), rgba(186, 230, 253, 0.2)), url("https://www.transparenttextures.com/patterns/clean-gray-paper.webp")',
           marginBottom: '2rem'
         }}>
           <div className="container">
@@ -207,7 +207,7 @@ export default function PreviousWorks() {
       ))}
       {/* Legacy / Last Poster Section */}
       <section className="section-padding" style={{
-        background: 'linear-gradient(rgba(186, 230, 253, 0.4), rgba(186, 230, 253, 0.2)), url("https://www.transparenttextures.com/patterns/clean-gray-paper.png")',
+        background: 'linear-gradient(rgba(186, 230, 253, 0.4), rgba(186, 230, 253, 0.2)), url("https://www.transparenttextures.com/patterns/clean-gray-paper.webp")',
         paddingTop: '2rem'
       }}>
         <div className="container" style={{ maxWidth: '1350px' }}>
