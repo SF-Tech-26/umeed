@@ -1,5 +1,5 @@
 import { Brain, Users, MessageSquare } from 'lucide-react';
-import mental from '../assets/mental.png';
+import mental from '../assets/mental.webp';
 
 export default function WhyMentalHealth() {
   const cards = [

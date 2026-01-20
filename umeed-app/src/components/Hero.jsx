@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Heart } from "lucide-react";
-import sfHeader from "../assets/sf_header.png";
+import sfHeader from "../assets/sf_header.webp";
 
 export default function Hero() {
   const fullTagline = "Igniting Light in the Shadowed Mind";
@@ -24,13 +24,14 @@ export default function Hero() {
 
   return (
     <section className="section-padding" style={{
-      minHeight: "80vh", /* Reduced from 100vh to save space */
+      minHeight: "100vh",
       display: "flex",
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "center",
       position: "relative",
-      paddingTop: "20px" /* Aggressively reduced */
+      paddingTop: "20px",
+      overflow: "hidden"
     }}>
       <div className="noise-overlay"></div>
 

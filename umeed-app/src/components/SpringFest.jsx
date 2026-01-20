@@ -1,9 +1,10 @@
 import React from 'react';
-import platform from '../assets/platform.png';
+import platform from '../assets/platform.webp';
 import sf1 from '../assets/sf1.webp';
-import sf2 from '../assets/sf2.jpeg';
-import sf3 from '../assets/sf3.jpg';
+import sf2 from '../assets/sf2.webp';
+import sf3 from '../assets/sf3.webp';
 import sf4 from '../assets/sf4.webp';
+import mainI from '../assets/spring_main.webp';
 
 export default function SpringFest() {
     return (
@@ -79,19 +80,41 @@ export default function SpringFest() {
             {/* Section 2: True Spirit of Youth (Banner) */}
             <section style={{
                 height: '60vh',
-                minHeight: '400px',
+                minHeight: '350px',
+                maxHeight: '600px',
                 position: 'relative',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                background: 'linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1920&q=80")',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundAttachment: 'fixed'
+                overflow: 'hidden'
             }}>
-                <div className="container text-center">
+                {/* Background Image Container */}
+                <div style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    backgroundImage: `url("${mainI}")`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundAttachment: 'fixed',
+                    zIndex: 0
+                }}>
+                    {/* Overlay */}
+                    <div style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        right: 0,
+                        bottom: 0,
+                        background: 'rgba(0,0,0,0.3)'
+                    }}></div>
+                </div>
+                <div className="container text-center" style={{ position: 'relative', zIndex: 1 }}>
                     <h2 className="scroll-reveal" style={{
-                        color: 'white',
+                        color: 'rgb(3, 198, 252)',
                         fontSize: 'clamp(3rem, 10vw, 8rem)',
                         border: 'none',
                         padding: 0,
